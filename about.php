@@ -53,7 +53,7 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col-md-6">
-                    <img src="https://via.placeholder.com/600x400/667eea/ffffff?text=Gedung+TK" alt="Gedung TK" class="img-fluid rounded shadow">
+                    <img src="assets\img\gedung sekolah.jpg" alt="Gedung TK" class="img-fluid rounded shadow">
                 </div>
                 <div class="col-md-6">
                     <h2 class="mb-4">Profil Sekolah</h2>
