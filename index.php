@@ -12,42 +12,47 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-        <div class="navbar-brand" href="index.php">
-            <a class="navbar-brand" href="index.php">
-                <i class="fas fa-school"></i>TK Muslimat NU Wanarejan Utara
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.php">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.php">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="prestasi.php">Prestasi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.php">gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="guestbook.php">Buku Tamu</a>
-                    </li>
-                </ul>
-            </div>
+   <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold d-flex align-items-center" href="index.php">
+            <i class="fas fa-school me-2"></i>
+            TK Muslimat NU Wanarejan Utara
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+                <li class="nav-item">
+                    <a class="nav-link active fw-semibold" href="index.php">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.php">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="prestasi.php">Prestasi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.php">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="guestbook.php">
+                        Buku Tamu
+                    </a>
+                </li>
+            </ul>
         </div>
-    </nav>
 
-    <section class="hero">
+    </div>
+</nav>
+
+
+    <section class="section glass-bg">
         <div class="container">
             <h1>Selamat Datang di TK Muslimat NU Wanarejan Utara</h1>
             <p class="lead">Membentuk Generasi Cerdas, Berkarakter, dan Berprestasi</p>
             <a href="guestbook.php" class="btn btn-light btn-lg">
-                <i class="fas fa-pen"></i>Tulis di Buku Tamu
+                <i class="fas fa-pen"></i> Tulis di Buku Tamu
             </a>
         </div>
     </section>
@@ -99,7 +104,7 @@
                     <a href="about.php" class="btn btn-primary">Pelajari Lebih Lanjut</a>
                 </div>
                 <div class="col-md-6">
-                    <img src="https://via.placeholder.com/600x400/667eea/ffffff?text=Gedung+Sekolah" alt="Sekolah" class="img-fluid rounded shadow">
+                    <img src="assets\img\gedung sekolah.jpg" alt="Sekolah" class="img-fluid rounded shadow">
                 </div>
             </div>
         </div>
